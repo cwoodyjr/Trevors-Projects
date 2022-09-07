@@ -11,7 +11,7 @@ public class SumNumbers {
 
             sumTotal = sumTotal+i;
             System.out.println(sumTotal);
-//            i++;
+            i++;
 
 
 
