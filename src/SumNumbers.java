@@ -3,14 +3,19 @@ import java.util.Scanner;
 public class SumNumbers {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-        System.out.print("Input a number to some to: ");
+        System.out.print("Input a number to sum to: ");
         int sumTotal = 0;
+        int i = 1;
         int sumTo = reader.nextInt();
-        System.out.println(sumTo);
-        while (sumTotal < sumTo){
+        while (i <= sumTo){
 
-            sumTotal = sumTotal+1;
+            sumTotal = sumTotal+i;
+            System.out.println(sumTotal);
+            i++;
 
-        }System.out.print(sumTotal);
+
+
+        }
+        System.out.println("the sum of "+sumTo+" is... " +sumTotal);
     }
 }
