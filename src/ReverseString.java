@@ -20,7 +20,9 @@ public class ReverseString {
 
         System.out.println("As a reverse CharArray: ");
 
-        for (int i = resultArray.length-1; i >= 0; i--){
+        for (int i = resultArray.length-1; i >= 0; i--){    //use a for loop to print character
+                                                            // array in reverse
+
 
             System.out.print(resultArray[i]+" ");
         }
