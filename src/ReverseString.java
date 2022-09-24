@@ -8,23 +8,24 @@ public class ReverseString {
 
         String letters = reader.nextLine(); //convert input from Scanner to string
         System.out.println("You entered "+letters); //print input
+        System.out.println();
 
-        char [] resultArray = letters.toCharArray(); //convert input to character array
+        char [] charArray = letters.toCharArray(); //convert input to character array
         System.out.println("As a CharArray: ");
-        for (int i = 0; i != resultArray.length; i++){  //use a for loop to print character array
+        for (int i = 0; i != charArray.length; i++){  //use a for loop to print character array
                                                         //
-            System.out.print(resultArray[i]+" ");       //
+            System.out.print(charArray[i]+" ");       //
         }
 
         System.out.println(" ");                        // print a blank line to break up results
 
         System.out.println("As a reverse CharArray: ");
 
-        for (int i = resultArray.length-1; i >= 0; i--){    //use a for loop to print character
+        for (int i = charArray.length-1; i >= 0; i--){    //use a for loop to print character
                                                             // array in reverse
 
 
-            System.out.print(resultArray[i]+" ");
+            System.out.print(charArray[i]+" ");
         }
         System.out.println(" ");
         System.out.println(letters);
