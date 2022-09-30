@@ -9,7 +9,7 @@ public class TestArray {
         }
         System.out.println();
         System.out.println("Sum of Numbers = "+sum);
-        double average = sum/ numbers.length;
+        double average = sum / numbers.length;
         System.out.println("Average number = "+average);
         // for (int i = 0; i < numbers.length; i++ ){
         //    sum=sum+numbers[i];
