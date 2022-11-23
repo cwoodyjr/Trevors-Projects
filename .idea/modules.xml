@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/PersonCreator/PersonCreator.iml" filepath="$PROJECT_DIR$/src/PersonCreator/PersonCreator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trevors Projects.iml" filepath="$PROJECT_DIR$/Trevors Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/src.iml" filepath="$PROJECT_DIR$/src/src.iml" />
     </modules>
   </component>
 </project>

@@ -2,6 +2,7 @@ public class TestArray {
     public static void main(String[] args) {
         double sum = 0;
         double[] numbers = {1,3,4,5,2,8,9,5,12,8};
+        double [] kstj;
         //for each loop, only works with arrays or array lists
         for (double i : numbers){
             sum = sum+i;
